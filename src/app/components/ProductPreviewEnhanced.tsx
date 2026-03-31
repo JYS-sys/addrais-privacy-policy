@@ -1,7 +1,7 @@
 import { motion } from 'motion/react';
-const contactsScreen = 'https://placehold.co/390x844/f3f4f6/111827?text=Contacts+Screen';
-const newContactScreen = 'https://placehold.co/390x844/f3f4f6/111827?text=New+Contact+Screen';
-const profileScreen = 'https://placehold.co/390x844/f3f4f6/111827?text=Profile+Screen';
+import contactsScreen from '../../assets/ddffbbf33eed0315f7b88900f7a7259902a9c534.png';
+import newContactScreen from '../../assets/42a0f0124fe3ba08712f7055f6e3d2904629b0f3.png';
+import profileScreen from '../../assets/669a23c2c9bb38e7bb0251313311ce1b7e8f77d8.png';
 
 export function ProductPreviewEnhanced() {
   return (

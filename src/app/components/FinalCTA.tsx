@@ -1,5 +1,5 @@
 import { motion } from 'motion/react';
-const appStoreBadge = 'https://placehold.co/360x112/000000/ffffff?text=Download+on+the+App+Store';
+import appStoreBadge from '../../assets/125019bdb2ac0628bc5619c802dccb3e11c2a70c.png';
 
 export function FinalCTA() {
   return (

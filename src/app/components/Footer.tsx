@@ -1,3 +1,4 @@
+import logo from '../../assets/0efd2d40f21db0d1a6749edd4cd1292585bd7827.png';
 import { X, Instagram } from 'lucide-react';
 import { motion } from 'motion/react';
 import { Link } from 'react-router';
@@ -19,9 +20,11 @@ export function Footer() {
                 ease: "linear"
               }}
             >
-              <div className="w-32 h-32 rounded-full bg-gradient-to-br from-gray-900 to-gray-700 text-white flex items-center justify-center text-4xl font-bold shadow-lg">
-                A
-              </div>
+              <img 
+                src={logo} 
+                alt="ADDRAIS Logo" 
+                className="w-32 h-32 object-contain drop-shadow-lg"
+              />
             </motion.div>
             <span className="text-2xl font-bold text-black tracking-tight">
               ADDRAIS
