@@ -1,5 +1,4 @@
 import { motion } from 'motion/react';
-import logo from 'figma:asset/0efd2d40f21db0d1a6749edd4cd1292585bd7827.png';
 
 export function ChromeLogo() {
   return (
@@ -20,11 +19,9 @@ export function ChromeLogo() {
         }}
         className="relative w-96 h-96 flex items-center justify-center"
       >
-        <img 
-          src={logo} 
-          alt="ADDRAIS Logo" 
-          className="w-full h-full object-contain drop-shadow-2xl"
-        />
+        <div className="w-full h-full rounded-full bg-gradient-to-br from-gray-900 via-gray-700 to-gray-500 text-white flex items-center justify-center text-8xl font-bold drop-shadow-2xl">
+          A
+        </div>
       </motion.div>
     </div>
   );
