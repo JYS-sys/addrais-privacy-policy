@@ -1,3 +1,4 @@
+import * as React from 'react';
 import { Link } from 'react-router';
 import { ArrowLeft } from 'lucide-react';
 
@@ -36,21 +37,23 @@ export function PrivacyPolicy() {
           </h2>
           <p className="text-gray-700 leading-relaxed mb-4">
             We may collect personal information that you provide directly, including:
+          </p>
           <ul className="list-disc list-inside space-y-2 mb-8 text-gray-700">
             <li>Name</li>
             <li>Email address</li>
             <li>Phone number</li>
-            <li>Contact data(including notes and information you add to contacts)</li>
+            <li>Contact data (including notes and information you add to contacts)</li>
           </ul>
+          <p className="text-gray-700 leading-relaxed mb-4">
+            We may also collect usage data such as:
           </p>
-          <p className="text-gray-700 leading-relaxed mb-8">
-          We may also collect usage data such as:
           <ul className="list-disc list-inside space-y-2 mb-8 text-gray-700">
             <li>App interactions</li>
             <li>Device information</li>
             <li>Analytics data</li>
           </ul>
-          This helps us improve our services and user experience.
+          <p className="text-gray-700 leading-relaxed mb-8">
+            This helps us improve our services and user experience.
           </p>
 
           <h2 className="text-3xl font-bold text-black mt-12 mb-4">
@@ -71,10 +74,10 @@ export function PrivacyPolicy() {
           </h2>
           <p className="text-gray-700 leading-relaxed mb-4">
             We use third-party artificial intelligence services to provide certain features within the app, such as contact organization and intelligent tagging. These services may process your data to enhance these features.
-          </p> 
+          </p>
           <p className="text-gray-700 leading-relaxed mb-4">
-          When you use AI-powered features, the following data may be securely transmitted to our AI service provider:
-          </p> 
+            When you use AI-powered features, the following data may be securely transmitted to our AI service provider:
+          </p>
           <ul className="list-disc list-inside space-y-2 mb-8 text-gray-700">
             <li>Name</li>
             <li>Email address</li>
@@ -82,8 +85,8 @@ export function PrivacyPolicy() {
             <li>Contact notes or user-added content</li>
           </ul>
           <p className="text-gray-700 leading-relaxed mb-4">
-            This data is sent to **OpenAI** for the purpose of:
-          </p> 
+            This data is sent to <strong>OpenAI</strong> for the purpose of:
+          </p>
           <ul className="list-disc list-inside space-y-2 mb-8 text-gray-700">
             <li>Automatically organizing and tagging contacts</li>
             <li>Improving categorization and search</li>
@@ -92,19 +95,18 @@ export function PrivacyPolicy() {
           <p className="text-gray-700 leading-relaxed mb-4">
             We only send the minimum amount of data necessary to perform these functions.
           </p>
-          </p>
           <p className="text-gray-700 leading-relaxed mb-4">
             We do not use your data to train AI models.
           </p>
 
           <h2 className="text-3xl font-bold text-black mt-12 mb-4">
-          User Consent for AI Processing
+            User Consent for AI Processing
           </h2>
           <p className="text-gray-700 leading-relaxed mb-4">
-          We only share your data with third-party AI services after obtaining your explicit consent.
+            We only share your data with third-party AI services after obtaining your explicit consent.
           </p>
-          <p className="text-gray-700 leading-relaxed mb-8">
-          Before any data is transmitted:
+          <p className="text-gray-700 leading-relaxed mb-4">
+            Before any data is transmitted:
           </p>
           <ul className="list-disc list-inside space-y-2 mb-8 text-gray-700">
             <li>You are clearly informed about what data will be shared</li>
@@ -112,21 +114,20 @@ export function PrivacyPolicy() {
             <li>You are asked to provide your consent</li>
           </ul>
           <p className="text-gray-700 leading-relaxed mb-4">
-          You can choose not to enable AI-powered features, and you may withdraw your consent at any time within the app.
+            You can choose not to enable AI-powered features, and you may withdraw your consent at any time within the app.
           </p>
 
           <h2 className="text-3xl font-bold text-black mt-12 mb-4">
-          Contact Data Usage
+            Contact Data Usage
           </h2>
           <p className="text-gray-700 leading-relaxed mb-4">
-          We only access your contacts after you grant permission through your device.
+            We only access your contacts after you grant permission through your device.
+          </p>
+          <p className="text-gray-700 leading-relaxed mb-4">
+            We do not automatically upload your entire contact list.
           </p>
           <p className="text-gray-700 leading-relaxed mb-8">
-          We do not automatically upload your entire contact list.
-
-          </p>
-          <p className="text-gray-700 leading-relaxed mb-8">
-          Only contacts that you explicitly interact with (for example, when adding notes or using AI-powered features) may be processed.
+            Only contacts that you explicitly interact with (for example, when adding notes or using AI-powered features) may be processed.
           </p>
 
           <h2 className="text-3xl font-bold text-black mt-12 mb-4">
@@ -136,45 +137,45 @@ export function PrivacyPolicy() {
             We do not sell your personal data.
           </p>
           <p className="text-gray-700 leading-relaxed mb-8">
-          We may share limited data with trusted third-party service providers strictly as necessary to operate our services, including:
+            We may share limited data with trusted third-party service providers strictly as necessary to operate our services, including:
           </p>
           <ul className="list-disc list-inside space-y-2 mb-8 text-gray-700">
             <li>OpenAI – for AI-powered contact tagging and analysis</li>
             <li>Vercel – for hosting and infrastructure</li>
           </ul>
           <p className="text-gray-700 leading-relaxed mb-4">
-          All third-party providers are required to implement appropriate data protection and security measures.
+            All third-party providers are required to implement appropriate data protection and security measures.
           </p>
 
           <h2 className="text-3xl font-bold text-black mt-12 mb-4">
             Data Hosting
           </h2>
           <p className="text-gray-700 leading-relaxed mb-8">
-          Our services are hosted by Vercel. By using ADDRAIS, you acknowledge that your data may be processed and stored on secure servers provided by Vercel.
+            Our services are hosted by Vercel. By using ADDRAIS, you acknowledge that your data may be processed and stored on secure servers provided by Vercel.
           </p>
-          
+
           <h2 className="text-3xl font-bold text-black mt-12 mb-4">
-          Data Retention
+            Data Retention
           </h2>
           <p className="text-gray-700 leading-relaxed mb-8">
-          We retain personal data only for as long as necessary to provide our services.
+            We retain personal data only for as long as necessary to provide our services.
           </p>
           <p className="text-gray-700 leading-relaxed mb-8">
-          Data processed through AI services is not stored by us beyond what is required for functionality.
+            Data processed through AI services is not stored by us beyond what is required for functionality.
           </p>
 
           <h2 className="text-3xl font-bold text-black mt-12 mb-4">
             Data Security
           </h2>
           <p className="text-gray-700 leading-relaxed mb-8">
-          We implement appropriate technical and organizational measures to protect your personal data against unauthorized access, alteration, disclosure, or destruction.
+            We implement appropriate technical and organizational measures to protect your personal data against unauthorized access, alteration, disclosure, or destruction.
           </p>
 
           <h2 className="text-3xl font-bold text-black mt-12 mb-4">
             Your Rights
           </h2>
           <p className="text-gray-700 leading-relaxed mb-8">
-          Depending on your location, you may have the right to:
+            Depending on your location, you may have the right to:
           </p>
           <ul className="list-disc list-inside space-y-2 mb-8 text-gray-700">
             <li>Access your personal data</li>
@@ -182,7 +183,7 @@ export function PrivacyPolicy() {
             <li>Request deletion of your data</li>
           </ul>
           <p className="text-gray-700 leading-relaxed mb-4">
-          You can exercise these rights by contacting us.
+            You can exercise these rights by contacting us.
           </p>
 
           <h2 className="text-3xl font-bold text-black mt-12 mb-4">
